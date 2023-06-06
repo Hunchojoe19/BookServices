@@ -1,0 +1,7 @@
+package huncho.com.BookApp.repository;
+
+import huncho.com.BookApp.entity.Book;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface BookRepository extends JpaRepository<Book, Long> {
+}
